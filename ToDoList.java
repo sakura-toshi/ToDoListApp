@@ -5,7 +5,7 @@ public class ToDoList {
     private static ArrayList<String> tasks = new ArrayList<>();
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in, "MS932");
         boolean running = true;
 
         System.out.println("=== ToDoリストアプリへようこそ ===");
